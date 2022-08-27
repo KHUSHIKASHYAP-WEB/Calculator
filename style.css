@@ -1,0 +1,91 @@
+/* #main_container {
+  background-color: aqua;
+} */
+body {
+  background-image: linear-gradient(lightgreen, darkgreen, black);
+}
+
+.heading {
+  margin-top: 4%;
+  margin-left: 33%;
+  margin-bottom: 2%;
+  font-size: 2.5em;
+}
+.textview {
+  background-color: black;
+  opacity: 0.6;
+  height: 120px;
+  width: 100%;
+  color: white;
+  font-size: 40px;
+  /* border-radius: 30px; */
+}
+
+.calc {
+  margin-top: 3%;
+  margin-left: 30%;
+  /* border: 2px solid black; */
+  width: 38%;
+  display: inline-block;
+  /* margin-bottom: 3%; */
+  border-radius: 30px;
+}
+#cal {
+  margin-top: 0%;
+}
+.display {
+  /* border: 2px solid black; */
+  height: 150px;
+}
+.input_buttons {
+  height: 299px;
+  background-color: black;
+}
+.bbb {
+  float: left;
+  width: 25%;
+  height: 20%;
+  border: 2px solid black;
+}
+.bttn {
+  border-radius: 30px;
+  background-color: #55a604;
+  width: 100%;
+  height: 100%;
+  font-size: 25px;
+  color: white;
+}
+
+.btn:hover {
+  background-color: white;
+  /* opacity: 0.3; */
+}
+.btn:focus {
+  background-color: white;
+  opacity: 0.3;
+}
+.opt {
+  background-color: #6ed705;
+}
+.num {
+  background-color: #86e823;
+}
+.bbb_eq {
+  background-color: blue;
+  width: 50%;
+  border: 2px solid black;
+}
+.take_input {
+  margin-top: 2%;
+  margin-left: 2%;
+}
+@media screen and (min-width: 699px) {
+  body {
+    background-color: purple;
+  }
+}
+/* @media screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+} */
