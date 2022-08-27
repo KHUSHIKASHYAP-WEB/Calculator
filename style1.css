@@ -1,6 +1,3 @@
-/* #main_container {
-  background-color: aqua;
-} */
 body {
   background-image: linear-gradient(lightgreen, darkgreen, black);
 }
@@ -8,9 +5,8 @@ body {
 .heading {
   margin-top: 4%;
   margin-left: 36.5%;
-  margin-bottom: 2.5%;
+  margin-bottom: 2%;
   font-size: 47px;
-  font-weight: 900px;
 }
 .textview {
   background-color: black;
@@ -79,33 +75,4 @@ body {
 .take_input {
   margin-top: 2%;
   margin-left: 2%;
-}
-@media screen and (max-width: 1000px) {
-  body {
-    background-color: purple;
-  }
-  .heading {
-    margin-left: 21%;
-  }
-  .calc {
-    margin-left: 20%;
-    width: 60%;
-  }
-}
-@media screen and (max-width: 990px) {
-  .heading {
-    margin-left: 27.5%;
-  }
-}
-@media screen and (max-width: 440px) {
-  body {
-    background-color: purple;
-  }
-  .heading {
-    margin-left: 12%;
-  }
-  .calc {
-    margin-left: 10%;
-    width: 80%;
-  }
 }
