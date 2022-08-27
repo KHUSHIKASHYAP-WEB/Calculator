@@ -2,7 +2,7 @@
   background-color: aqua;
 } */
 body {
-  background-image: linear-gradient(lightgreen, darkgreen, black);
+  background-image: linear-gradient(lightgreen, darkgreen, black, black);
 }
 
 .heading {
