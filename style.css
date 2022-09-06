@@ -6,10 +6,10 @@ body {
 }
 
 .heading {
-  margin-top: 4%;
+  margin-top: 2%;
   margin-left: 36.5%;
-  margin-bottom: 2.5%;
-  font-size: 47px;
+  margin-bottom: 2%;
+  font-size: 45px;
   font-weight: 900px;
 }
 .textview {
@@ -19,7 +19,6 @@ body {
   width: 100%;
   color: white;
   font-size: 40px;
-  /* border-radius: 30px; */
 }
 
 .calc {
@@ -39,7 +38,7 @@ body {
   height: 150px;
 }
 .input_buttons {
-  height: 299px;
+  height: 350px;
   background-color: black;
 }
 .bbb {
